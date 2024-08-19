@@ -1,0 +1,99 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+header
+{
+    background-color: sienna;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.headerDiv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.gameContainer
+{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.firstRow
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.secondRow
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.rowDiv
+{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rowOneDiv
+{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rowTwoDiv
+{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirdRow
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.rowThreeDiv
+{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.addedDivX, .addedDivO
+{
+    font-size: 60px;
+}
